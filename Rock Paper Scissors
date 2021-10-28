@@ -12,18 +12,25 @@ for i in range(a):
     b=random.choice(l)
     c=int(input('enter your choice: '))
     if b==x and c==1:
+        print(b)
         print("it's a tie")
     elif b==y and c==2:
+        print(b)
         print("it's a tie")
     elif b==z and c==3:
+        print(b)
         print("it's a tie")
     elif b==x and c==2:
+        print(b)
         print('you win')
     elif b==y and c==3:
+        print(b)
         print('you win')
     elif b==z and c==1:
+        print(b)
         print('you win')
     else:
+        print(b)
         print('you lose')
 print('thank you,hope you enjoyed')
     
