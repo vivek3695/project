@@ -1,5 +1,5 @@
 import random
-A=
+A=''
 a1=("")
 a2=("")
 a3=("")
@@ -60,39 +60,39 @@ print ("this quiz contains 5 different levels")
 print("you can attempt each level only once") 
 print("after attempting all five levels your score will be displayed") 
 x=input("to proceed with level1 press enter") 
-if x==""
-
-
+if x==A:
+    print("enter your answer number") 
     y=random.choice(l1)
-    if y==a:
-        print(a)
-        w=int(input('1-, 2-, 3-, 4- : '))
-        if w==
+    if y==a1:
+        print(a1)
+        z=int(input('1-, 2-, 3-, 4- : '))
+        if z==
         print("correct")
            
         else:
             print("wrong")
-            print("correct answer : ")
         l1.remove(y)    
 
-    if y==b:
-        print(b)
-        s=int(input("1-,2- 3- 4- : "))
-        if s==:
-            print("correct")
-            l1.remove(y)
+    elif y==a2:
+          print(a2)
+          z=int(input("1-,2- 3- 4- : "))
+          if z==:
+              print("correct")
             
-        else:
-            print("wrong")
-    if y==c:
-        print(c)
-        p=int(input('1-brandon curry 2-big ramy 3-arnold schwarenegger 4-john cena : '))
-        if p==2:
-            print("correct")
-            l1.remove(y)
+            
+          else:
+              print("wrong")
+          l1.remove(y) 
+    elif y==a3:
+          print(a3)
+          p=int(input('1-brandon curry 2-big ramy 3-arnold schwarenegger 4-john cena : '))
+          if p==:
+              print("correct")
+            
            
-        else:
-            print("wrong")
+          else:
+              print("wrong")
+          
     if y==d:
         print(d)
         m=int(input("1-maruti-800 , 2-bugatti, 3-koenigsegg, 4-ssc : "))
