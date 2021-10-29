@@ -1,5 +1,10 @@
 import random
 A=''
+sec1=0
+sec2=0
+sec3=0
+sec4=0
+sec5=0
 a1=("India is a federal union comprising twenty-nine states and how many union territories?")
 a2=("Which of the following is the capital of Arunachal Pradesh?")
 a3=("What are the major languages spoken in Andhra Pradesh?")
@@ -69,7 +74,8 @@ for i in range(10):
             print(a1)
             z=int(input('1-6, 2-7, 3-8, 4-9 : '))
             if z==2:
-                print("correct")   
+                print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)    
@@ -78,7 +84,8 @@ for i in range(10):
               print(a2)
               z=int(input("1-ITANAGAR, 2-DISPUR, 3-IMPHAL, 4-PANAJI : "))
               if z==1:
-                  print("correct")  
+                  print("correct")
+                  sec1=sec1+1
               else:
                   print("wrong")
               l1.remove(y) 
@@ -87,6 +94,7 @@ for i in range(10):
               z=int(input('1-ENGLISH AND TELUGU, 2-TELUGU AND URDU 3-TELUGU AND KANADA 4-ALL OF THE ABOVE LANGUAGES : '))
               if z==2:
                   print("correct")
+                  sec1=sec1+1
               else:
                   print("wrong")
               l1.remove(y)
@@ -95,6 +103,7 @@ for i in range(10):
               z=int(input("1-LOTUS , 2-RHODODENDRON, 3-GOLDEN SHOWER, 4-NOT DECLARED : "))
               if z==1:
                   print("correct")
+                  sec1=sec1+1
               else:
                   print("wrong")
               l1.remove(y)    
@@ -103,6 +112,7 @@ for i in range(10):
             z=int(input("1-JHARKHAND , 2-JAMMU AND KASHMIR, 3-HIMACHAL PRADESH , 4-HARYANA : "))
             if z==1:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -111,6 +121,7 @@ for i in range(10):
             z=int(input("1-MIZORAM ,2-NAGALAND ,3-MEGHALAYA, 4-TRIPURA: "))
             if z==3:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -119,6 +130,7 @@ for i in range(10):
             z=int(input("1-KERALA , 2-TAMIL NADU , 3-KARNATAKA , 4-ARUNACHAL PRADESH"))
             if z==3:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -127,6 +139,7 @@ for i in range(10):
             z=int(input("1-MAHARASHTRA, 2-MADHYA PRADESH, 3-UTTAR PRADESH, 4-RAJASTHAN"))
             if z==4:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -135,6 +148,7 @@ for i in range(10):
             z=int(input('1-UTTAR PRADESH , 2-MAHARASTRA , 3-BIHAR , 4-ANDHRA PRADESH : '))
             if z==1:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -143,6 +157,7 @@ for i in range(10):
             z=int(input('1-MIZORUM , 2-ORISSA, 3-MANIPUR, 4-MEGHALAYA : '))
             if z==4:
                 print("correct")
+                sec1=sec1+1
             else:
                 print("wrong")
             l1.remove(y)
@@ -156,7 +171,8 @@ for i in range(10):
             print(1)
             z=int(input('1-JAWAHAR POINT, 2-ANNA POINT, 3-INDRA POINT, 4-ANDAMAN POINT : '))
             if z==3:
-                print("correct")   
+                print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)    
@@ -165,7 +181,8 @@ for i in range(10):
               print(b2)
               z=int(input("1-BAILEY BRIDGE, 2-SUKAN BRIDGE, 3-HOWRAH BRIDGE, 4-JAWAR BRIDGE : "))
               if z==1:
-                  print("correct")  
+                  print("correct")
+                  sec2=sec2+1
               else:
                   print("wrong")
               l2.remove(y) 
@@ -174,6 +191,7 @@ for i in range(10):
               z=int(input('1-DRASS, 2-KASHMIR, 3-TWANG, 4-NONE : '))
               if z==1:
                   print("correct")
+                  sec2=sec2+1
               else:
                   print("wrong")
               l2.remove(y)
@@ -182,6 +200,7 @@ for i in range(10):
               z=int(input("1-CHERAPUNJI , 2-MAWSYNRAM, 3-KOCHI, 4-NICOBAR ISLAND: "))
               if z==2:
                   print("correct")
+                  sec2=sec2+1
               else:
                   print("wrong")
               l2.remove(y)    
@@ -190,6 +209,7 @@ for i in range(10):
             z=int(input("1-3rd , 2-4th, 3-6th, 4-7th : "))
             if z==4:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
@@ -198,6 +218,7 @@ for i in range(10):
             z=int(input("1-MUMBAI ,2-KOLKATA ,3-CHENNAI, 4-DELHI: "))
             if z==2:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
@@ -206,6 +227,7 @@ for i in range(10):
             z=int(input("1-KUNTALA FALLS , 2-JOG FALLS, 3-TALALONA , 4-RAJRAPPA: "))
             if z==2:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
@@ -214,6 +236,7 @@ for i in range(10):
             z=int(input("1-GODAVARI, 2-TUNGABADRA, 3-NARMADA, 4-PAMBA "))
             if z==1:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
@@ -222,6 +245,7 @@ for i in range(10):
             z=int(input('1-2, 2-3 , 3-4 , 4-5 : '))
             if z==2:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
@@ -230,6 +254,7 @@ for i in range(10):
             z=int(input('1-ARUNACHAL PRADESH, 2-MANIPUR, 3-NAGALAND, 4-ASSAM : '))
             if z==4:
                 print("correct")
+                sec2=sec2+1
             else:
                 print("wrong")
             l2.remove(y)
