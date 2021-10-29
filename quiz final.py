@@ -268,7 +268,8 @@ for i in range(10):
             print(c1)
             z=int(input('1-BHARATNATYAM, 2-KATHAKALI, 3-ODISSI, 4-MOHINIATTAM : '))
             if z==1:
-                print("correct")   
+                print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)    
@@ -277,7 +278,8 @@ for i in range(10):
               print(c2)
               z=int(input("1-BHARAT MUNI, 2-TANDU MUNI, 3-NARAD MUNI, 4-ABHINAV GUPT : "))
               if z==1:
-                  print("correct")  
+                  print("correct")
+                  sec3=sec3+1
               else:
                   print("wrong")
               l2.remove(y) 
@@ -286,6 +288,7 @@ for i in range(10):
               z=int(input('1-TORAH, 2-BIBLE, 3-GITA, 4-ZEND AVESTA: '))
               if z==4:
                   print("correct")
+                  sec3=sec3+1
               else:
                   print("wrong")
               l3.remove(y)
@@ -294,6 +297,7 @@ for i in range(10):
               z=int(input("1-HARIDWAR , 2-NASIK, 3-UJJAIN, 4-ALLAHABAD: "))
               if z==1:
                   print("correct")
+                  sec3=sec3+1
               else:
                   print("wrong")
               l3.remove(y)    
@@ -302,6 +306,7 @@ for i in range(10):
             z=int(input("1-DRESS PREPARE IN GOA , 2-TRADITIONAL DANCE OF KERALA, 3-FESTIVAL OF ANDHRA PRADESH, 4-NONE : "))
             if z==2:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -310,6 +315,7 @@ for i in range(10):
             z=int(input("1-IQUBAL ,2-RABINDRANATH TOGORE ,3-JAI SHANKAR PRASAD, 4-BHANKIM CHANDRA CHATTERJI: "))
             if z==4:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -318,6 +324,7 @@ for i in range(10):
             z=int(input("1-MUMBAI , 2-CHANNAI, 3-NEW DELHI , 4-KOLKATA "))
             if z==3:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -326,6 +333,7 @@ for i in range(10):
             z=int(input("1-2:4, 2-3:4, 3-2:3, 4-3:4 "))
             if z==3:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -334,6 +342,7 @@ for i in range(10):
             z=int(input('1-ORRISA, 2-MANIPUR , 3-KARNATAKA , 4-KERALA: '))
             if z==4:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -342,6 +351,7 @@ for i in range(10):
             z=int(input('1-RAMAYANA, 2-MUNDAK UPANISHAD, 3-RIGVEDA, 4-SAPATH BRAHMANA : '))
             if z==2:
                 print("correct")
+                sec3=sec3+1
             else:
                 print("wrong")
             l3.remove(y)
@@ -355,7 +365,8 @@ for i in range(10):
             print(d1)
             z=int(input('1-BUDDHISTS, 2-HINDUS, 3-SIKHS, 4-JAINS : '))
             if z==3:
-                print("correct")   
+                print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)    
@@ -364,7 +375,8 @@ for i in range(10):
               print(d2)
               z=int(input("1-CHRISTIANITY, 2-MUSLIM, 3-JAINISM, 4-PARSIAN : "))
               if z==4:
-                  print("correct")  
+                  print("correct")
+                  sec4=sec4+1
               else:
                   print("wrong")
               l4.remove(y) 
@@ -373,6 +385,7 @@ for i in range(10):
               z=int(input('1-TRIPURA, 2-ASSAM, 3-ODISHA, 4-KARNATAKA: '))
               if z==2:
                   print("correct")
+                  sec4=sec4+1
               else:
                   print("wrong")
               l4.remove(y)
@@ -381,6 +394,7 @@ for i in range(10):
               z=int(input("1-PONGAL , 2-ONAM, 3-BAISAKHI, 4-BIHU: "))
               if z==3:
                   print("correct")
+                  sec4=sec4+1
               else:
                   print("wrong")
               l4.remove(y)    
@@ -389,6 +403,7 @@ for i in range(10):
             z=int(input("1-ONAM , 2-NARVOZ, 3-BIHU, 4-PONGAL : "))
             if z==2:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -397,6 +412,7 @@ for i in range(10):
             z=int(input("1-DUSSEHRA ,2-DIWALI ,3-HOLI, 4-DURGA PUJA: "))
             if z==2:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -405,6 +421,7 @@ for i in range(10):
             z=int(input("1-LENT , 2-NARVOZ, 3-EASTER , 4-CHRISTMAS "))
             if z==4:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -413,6 +430,7 @@ for i in range(10):
             z=int(input("1-MUSLIMS, 2-PARSIANS, 3-BUDDHISTS, 4-JAINS "))
             if z==1:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -421,6 +439,7 @@ for i in range(10):
             z=int(input('1-ASSAM, 2-BIHAR , 3-WEST BENGAL , 4-PUNJAB : '))
             if z==2:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -429,6 +448,7 @@ for i in range(10):
             z=int(input('1-MUMBAI, 2-JAIPUR, 3-KOLKATA, 4-BENGALURU : '))
             if z==1:
                 print("correct")
+                sec4=sec4+1
             else:
                 print("wrong")
             l4.remove(y)
@@ -442,7 +462,8 @@ for i in range(10):
             print(e1)
             z=int(input('1-V.D.SAVARKAR, 2-MK GANDHI, 3-BG TILAK, 4-MOTILAL NEHRU : '))
             if z==2:
-                print("correct")   
+                print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)    
@@ -451,7 +472,8 @@ for i in range(10):
               print(e2)
               z=int(input("1-TANTIA TOPE, 2-KUNWAR SINGH, 3-DADABHAI NAROJI, 4-WC BONNERJEE : "))
               if z==3:
-                  print("correct")  
+                  print("correct")
+                  sec5=sec5+1
               else:
                   print("wrong")
               l5.remove(y) 
@@ -460,6 +482,7 @@ for i in range(10):
               z=int(input('1-BHUPENDRANATH DUTT, 2-ABHINASH BATTACHARYA, 3-BARINDRA GHOSH 4-ALL OF THE ABOVE: '))
               if z==4:
                   print("correct")
+                  sec5=sec5+1
               else:
                   print("wrong")
               l5.remove(y)
@@ -468,6 +491,7 @@ for i in range(10):
               z=int(input("1-VALLABH BHAI PATEL , 2-SHAMBU DUTT SHARMA, 3-SIR AUROBINDO, 4-NONE: "))
               if z==3:
                   print("correct")
+                  sec5=sec5+1
               else:
                   print("wrong")
               l5.remove(y)    
@@ -476,6 +500,7 @@ for i in range(10):
             z=int(input("1-LAWYER , 2-BUSINESSMAN, 3-TEACHER, 4-NONE : "))
             if z==1:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
@@ -484,6 +509,7 @@ for i in range(10):
             z=int(input("1-MK GANDHI ,2-BG TILAK ,3-MOTILAL NEHRU, 4-BHAGAT SINGH: "))
             if z==2:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
@@ -492,6 +518,7 @@ for i in range(10):
             z=int(input("1-LORD CURZON , 2-LORD CANNING, 3-LORD DALHOUSIE , 4-LORD MINTO "))
             if z==1:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
@@ -500,6 +527,7 @@ for i in range(10):
             z=int(input("1-Poona Sarvajanik Sabha, 2-Land Holders Society, 3-Bombay Presidency Association, 4-Servants of India Society "))
             if z==4:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
@@ -508,6 +536,7 @@ for i in range(10):
             z=int(input('1-W.W.HUNTER, 2-SADLER , 3-MACAULAY, 4-NONE : '))
             if z==1:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
@@ -516,6 +545,7 @@ for i in range(10):
             z=int(input('1-NON-COOPERATION MOVEMENT, 2-KHILAFAT MOVEMENT, 3-Home Rule Movement, 4-Civil Disobedience Movement : '))
             if z==3:
                 print("correct")
+                sec5=sec5+1
             else:
                 print("wrong")
             l5.remove(y)
