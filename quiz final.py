@@ -60,10 +60,9 @@ l2=[b1,b2,b3,b4,b5,b6,b7,b8,b9,b10]
 l3=[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
 l4=[d1,d2,d3,d4,d5,d6,d7,d8,d9,d10]
 l5=[e1,e2,e3,e4,e5,e6,e7,e8,e9,e10]
-print("welcome to the quiz")
-print ("this quiz contains 5 different sections") 
-print("you can attempt each level only once") 
-print("after attempting all five levels your score will be displayed") 
+print("WELCOME TO THE QUIZ")
+print ("THIS QUIZ HAS 5 SECTIONS") 
+G=int(input('enter a number'))
 x=input("to proceed with section-1 press enter")
 Z=print("SECTION 1: INDIAN AND ITS STATES")
 for i in range(10):    
