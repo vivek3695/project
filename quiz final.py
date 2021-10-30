@@ -60,492 +60,310 @@ l2=[b1,b2,b3,b4,b5,b6,b7,b8,b9,b10]
 l3=[c1,c2,c3,c4,c5,c6,c7,c8,c9,c10]
 l4=[d1,d2,d3,d4,d5,d6,d7,d8,d9,d10]
 l5=[e1,e2,e3,e4,e5,e6,e7,e8,e9,e10]
-print("WELCOME TO THE QUIZ")
-print ("THIS QUIZ HAS 5 SECTIONS") 
-G=int(input('enter a number'))
-x=input("to proceed with section-1 press enter")
-Z=print("SECTION 1: INDIAN AND ITS STATES")
-for i in range(10):    
-    if x==A:    
-        print("enter your CHOICE") 
-        y=random.choice(l1)
-        if y==a1:
-            print(a1)
-            z=int(input('1-6, 2-7, 3-8, 4-9 : '))
-            if z==2:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)    
+print("welcome to the quiz")
+print ("this quiz contains 5 different sections") 
+print("you can attempt each level only once") 
+print("after attempting all five levels your score will be displayed")
+G=int(input('enter a no'))
+if G==1:
+    x=input("to proceed with section-1 press enter")
+    Z=print("SECTION 1: INDIAN AND ITS STATES")
+    for i in range(10):    
+        if x==A:    
+            print("enter your CHOICE") 
+            y=random.choice(l1)
+            if y==a1:
+                print(a1)
+                z=int(input('1-6, 2-7, 3-8, 4-9 : '))
+                if z==2:
+                    print("correct")
+                    sec1=sec1+1
+                else:
+                    print("wrong")
+                l1.remove(y)    
 
-        elif y==a2:
-              print(a2)
-              z=int(input("1-ITANAGAR, 2-DISPUR, 3-IMPHAL, 4-PANAJI : "))
-              if z==1:
-                  print("correct")
-                  sec1=sec1+1
-              else:
-                  print("wrong")
-              l1.remove(y) 
-        elif y==a3:
-              print(a3)
-              z=int(input('1-ENGLISH AND TELUGU, 2-TELUGU AND URDU 3-TELUGU AND KANADA 4-ALL OF THE ABOVE LANGUAGES : '))
-              if z==2:
-                  print("correct")
-                  sec1=sec1+1
-              else:
-                  print("wrong")
-              l1.remove(y)
-        elif y==a4:
-              print(a4)
-              z=int(input("1-LOTUS , 2-RHODODENDRON, 3-GOLDEN SHOWER, 4-NOT DECLARED : "))
-              if z==1:
-                  print("correct")
-                  sec1=sec1+1
-              else:
-                  print("wrong")
-              l1.remove(y)    
-        elif y==a5:
-            print(a5)
-            z=int(input("1-JHARKHAND , 2-JAMMU AND KASHMIR, 3-HIMACHAL PRADESH , 4-HARYANA : "))
-            if z==1:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-        elif y==a6:
-            print(a6)
-            z=int(input("1-MIZORAM ,2-NAGALAND ,3-MEGHALAYA, 4-TRIPURA: "))
-            if z==3:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-        elif y==a7:
-            print(a7)
-            z=int(input("1-KERALA , 2-TAMIL NADU , 3-KARNATAKA , 4-ARUNACHAL PRADESH"))
-            if z==3:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-        elif y==a8:
-            print(a8)
-            z=int(input("1-MAHARASHTRA, 2-MADHYA PRADESH, 3-UTTAR PRADESH, 4-RAJASTHAN"))
-            if z==4:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-        elif y==a9:
-            print(a9)
-            z=int(input('1-UTTAR PRADESH , 2-MAHARASTRA , 3-BIHAR , 4-ANDHRA PRADESH : '))
-            if z==1:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-        elif y==a10:
-            print(a10)
-            z=int(input('1-MIZORUM , 2-ORISSA, 3-MANIPUR, 4-MEGHALAYA : '))
-            if z==4:
-                print("correct")
-                sec1=sec1+1
-            else:
-                print("wrong")
-            l1.remove(y)
-x=input("to proceed with section-2 press enter: ")
-Z=print("SECTION 2: INDIAN GEOGRAPHY")
-for i in range(10):    
-    if x==A:    
-        print("enter your CHOICE") 
-        y=random.choice(l2)
-        if y==b1:
-            print(1)
-            z=int(input('1-JAWAHAR POINT, 2-ANNA POINT, 3-INDRA POINT, 4-ANDAMAN POINT : '))
-            if z==3:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)    
+            elif y==a2:
+                  print(a2)
+                  z=int(input("1-ITANAGAR, 2-DISPUR, 3-IMPHAL, 4-PANAJI : "))
+                  if z==1:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y) 
+            elif y==a3:
+                  print(a3)
+                  z=int(input('1-ENGLISH AND TELUGU, 2-TELUGU AND URDU 3-TELUGU AND KANADA 4-ALL OF THE ABOVE LANGUAGES : '))
+                  if z==2:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a4:
+                  print(a4)
+                  z=int(input("1-LOTUS , 2-RHODODENDRON, 3-GOLDEN SHOWER, 4-NOT DECLARED : "))
+                  if z==1:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)    
+            elif y==a5:
+                  print(a5)
+                  z=int(input("1-JHARKHAND , 2-JAMMU AND KASHMIR, 3-HIMACHAL PRADESH , 4-HARYANA : "))
+                  if z==1:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a6:
+                  print(a6)
+                  z=int(input("1-MIZORAM ,2-NAGALAND ,3-MEGHALAYA, 4-TRIPURA: "))
+                  if z==3:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a7:
+                  print(a7)
+                  z=int(input("1-KERALA , 2-TAMIL NADU , 3-KARNATAKA , 4-ARUNACHAL PRADESH"))
+                  if z==3:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a8:
+                  print(a8)
+                  z=int(input("1-MAHARASHTRA, 2-MADHYA PRADESH, 3-UTTAR PRADESH, 4-RAJASTHAN"))
+                  if z==4:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a9:
+                  print(a9)
+                  z=int(input('1-UTTAR PRADESH , 2-MAHARASTRA , 3-BIHAR , 4-ANDHRA PRADESH : '))
+                  if z==1:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+            elif y==a10:
+                  print(a10)
+                  z=int(input('1-MIZORUM , 2-ORISSA, 3-MANIPUR, 4-MEGHALAYA : '))
+                  if z==4:
+                      print("correct")
+                      sec1=sec1+1
+                  else:
+                      print("wrong")
+                  l1.remove(y)
+    print('your score is',sec1)              
+elif G==2:
+    x=input("to proceed with section-2 press enter: ")
+    Z=print("SECTION 2: INDIAN GEOGRAPHY")
+    for i in range(10):
+        if x==A:
+            print("enter your CHOICE") 
+            y=random.choice(l2)
+            if y==b1:
+                print(b1)
+                z=int(input('1-JAWAHAR POINT, 2-ANNA POINT, 3-INDRA POINT, 4-ANDAMAN POINT : '))
+                if z==3:
+                    print("correct")
+                    sec2=sec2+1
+                else:
+                    print("wrong")
+                l2.remove(y)    
+            elif y==b2:
+                  print(b2)
+                  z=int(input("1-BAILEY BRIDGE, 2-SUKAN BRIDGE, 3-HOWRAH BRIDGE, 4-JAWAR BRIDGE : "))
+                  if z==1:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y) 
+            elif y==b3:
+                  print(b3)
+                  z=int(input('1-DRASS, 2-KASHMIR, 3-TWANG, 4-NONE : '))
+                  if z==1:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b4:
+                  print(b4)
+                  z=int(input("1-CHERAPUNJI , 2-MAWSYNRAM, 3-KOCHI, 4-NICOBAR ISLAND: "))
+                  if z==2:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)    
+            elif y==b5:
+                  print(b5)
+                  z=int(input("1-3rd , 2-4th, 3-6th, 4-7th : "))
+                  if z==4:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b6:
+                  print(b6)
+                  z=int(input("1-MUMBAI ,2-KOLKATA ,3-CHENNAI, 4-DELHI: "))
+                  if z==2:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b7:
+                  print(b7)
+                  z=int(input("1-KUNTALA FALLS , 2-JOG FALLS, 3-TALALONA , 4-RAJRAPPA: "))
+                  if z==2:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b8:
+                  print(b8)
+                  z=int(input("1-GODAVARI, 2-TUNGABADRA, 3-NARMADA, 4-PAMBA "))
+                  if z==1:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b9:
+                  print(b9)
+                  z=int(input('1-2, 2-3 , 3-4 , 4-5 : '))
+                  if z==2:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+            elif y==b10:
+                  print(b10)
+                  z=int(input('1-ARUNACHAL PRADESH, 2-MANIPUR, 3-NAGALAND, 4-ASSAM : '))
+                  if z==4:
+                      print("correct")
+                      sec2=sec2+1
+                  else:
+                      print("wrong")
+                  l2.remove(y)
+    print('your score is',sec2)              
+elif G==3:
+      x=input("to proceed with section-3 press enter")
+      Z=print("SECTION 3:ARTS AND CULTURE ")
+      for i in range(10):    
+          if x==A:    
+              print("enter your CHOICE") 
+              y=random.choice(l3)
+              if y==c1:
+                  print(c1)
+                  z=int(input('1-BHARATNATYAM, 2-KATHAKALI, 3-ODISSI, 4-MOHINIATTAM : '))
+                  if z==1:
+                      print("correct")
+                      sec3=sec3+1
+                  else:
+                      print("wrong")
+                  l3.remove(y)    
 
-        elif y==b2:
-              print(b2)
-              z=int(input("1-BAILEY BRIDGE, 2-SUKAN BRIDGE, 3-HOWRAH BRIDGE, 4-JAWAR BRIDGE : "))
-              if z==1:
-                  print("correct")
-                  sec2=sec2+1
-              else:
-                  print("wrong")
-              l2.remove(y) 
-        elif y==b3:
-              print(b3)
-              z=int(input('1-DRASS, 2-KASHMIR, 3-TWANG, 4-NONE : '))
-              if z==1:
-                  print("correct")
-                  sec2=sec2+1
-              else:
-                  print("wrong")
-              l2.remove(y)
-        elif y==b4:
-              print(b4)
-              z=int(input("1-CHERAPUNJI , 2-MAWSYNRAM, 3-KOCHI, 4-NICOBAR ISLAND: "))
-              if z==2:
-                  print("correct")
-                  sec2=sec2+1
-              else:
-                  print("wrong")
-              l2.remove(y)    
-        elif y==b5:
-            print(b5)
-            z=int(input("1-3rd , 2-4th, 3-6th, 4-7th : "))
-            if z==4:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-        elif y==b6:
-            print(b6)
-            z=int(input("1-MUMBAI ,2-KOLKATA ,3-CHENNAI, 4-DELHI: "))
-            if z==2:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-        elif y==b7:
-            print(b7)
-            z=int(input("1-KUNTALA FALLS , 2-JOG FALLS, 3-TALALONA , 4-RAJRAPPA: "))
-            if z==2:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-        elif y==b8:
-            print(b8)
-            z=int(input("1-GODAVARI, 2-TUNGABADRA, 3-NARMADA, 4-PAMBA "))
-            if z==1:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-        elif y==b9:
-            print(b9)
-            z=int(input('1-2, 2-3 , 3-4 , 4-5 : '))
-            if z==2:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-        elif y==b10:
-            print(b10)
-            z=int(input('1-ARUNACHAL PRADESH, 2-MANIPUR, 3-NAGALAND, 4-ASSAM : '))
-            if z==4:
-                print("correct")
-                sec2=sec2+1
-            else:
-                print("wrong")
-            l2.remove(y)
-x=input("to proceed with section-3 press enter")
-Z=print("SECTION 3:ARTS AND CULTURE ")
-for i in range(10):    
-    if x==A:    
-        print("enter your CHOICE") 
-        y=random.choice(l3)
-        if y==c1:
-            print(c1)
-            z=int(input('1-BHARATNATYAM, 2-KATHAKALI, 3-ODISSI, 4-MOHINIATTAM : '))
-            if z==1:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)    
+              elif y==c2:
+                    print(c2)
+                    z=int(input("1-BHARAT MUNI, 2-TANDU MUNI, 3-NARAD MUNI, 4-ABHINAV GUPT : "))
+                    if z==1:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l2.remove(y) 
+              elif y==c3:
+                    print(c3)
+                    z=int(input('1-TORAH, 2-BIBLE, 3-GITA, 4-ZEND AVESTA: '))
+                    if z==4:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c4:
+                    print(c4)
+                    z=int(input("1-HARIDWAR , 2-NASIK, 3-UJJAIN, 4-ALLAHABAD: "))
+                    if z==1:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)    
+              elif y==c5:
+                    print(c5)
+                    z=int(input("1-DRESS PREPARE IN GOA , 2-TRADITIONAL DANCE OF KERALA, 3-FESTIVAL OF ANDHRA PRADESH, 4-NONE : "))
+                    if z==2:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c6:
+                    print(c6)
+                    z=int(input("1-IQUBAL ,2-RABINDRANATH TOGORE ,3-JAI SHANKAR PRASAD, 4-BHANKIM CHANDRA CHATTERJI: "))
+                    if z==4:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c7:
+                    print(c7)
+                    z=int(input("1-MUMBAI , 2-CHANNAI, 3-NEW DELHI , 4-KOLKATA "))
+                    if z==3:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c8:
+                    print(c8)
+                    z=int(input("1-2:4, 2-3:4, 3-2:3, 4-3:4 "))
+                    if z==3:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c9:
+                    print(c9)
+                    z=int(input('1-ORRISA, 2-MANIPUR , 3-KARNATAKA , 4-KERALA: '))
+                    if z==4:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+              elif y==c10:
+                    print(c10)
+                    z=int(input('1-RAMAYANA, 2-MUNDAK UPANISHAD, 3-RIGVEDA, 4-SAPATH BRAHMANA : '))
+                    if z==2:
+                        print("correct")
+                        sec3=sec3+1
+                    else:
+                        print("wrong")
+                    l3.remove(y)
+    print('your score is',sec3)
+elif G==4:
+    print(a1)
 
-        elif y==c2:
-              print(c2)
-              z=int(input("1-BHARAT MUNI, 2-TANDU MUNI, 3-NARAD MUNI, 4-ABHINAV GUPT : "))
-              if z==1:
-                  print("correct")
-                  sec3=sec3+1
-              else:
-                  print("wrong")
-              l2.remove(y) 
-        elif y==c3:
-              print(c3)
-              z=int(input('1-TORAH, 2-BIBLE, 3-GITA, 4-ZEND AVESTA: '))
-              if z==4:
-                  print("correct")
-                  sec3=sec3+1
-              else:
-                  print("wrong")
-              l3.remove(y)
-        elif y==c4:
-              print(c4)
-              z=int(input("1-HARIDWAR , 2-NASIK, 3-UJJAIN, 4-ALLAHABAD: "))
-              if z==1:
-                  print("correct")
-                  sec3=sec3+1
-              else:
-                  print("wrong")
-              l3.remove(y)    
-        elif y==c5:
-            print(c5)
-            z=int(input("1-DRESS PREPARE IN GOA , 2-TRADITIONAL DANCE OF KERALA, 3-FESTIVAL OF ANDHRA PRADESH, 4-NONE : "))
-            if z==2:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-        elif y==c6:
-            print(c6)
-            z=int(input("1-IQUBAL ,2-RABINDRANATH TOGORE ,3-JAI SHANKAR PRASAD, 4-BHANKIM CHANDRA CHATTERJI: "))
-            if z==4:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-        elif y==c7:
-            print(c7)
-            z=int(input("1-MUMBAI , 2-CHANNAI, 3-NEW DELHI , 4-KOLKATA "))
-            if z==3:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-        elif y==c8:
-            print(c8)
-            z=int(input("1-2:4, 2-3:4, 3-2:3, 4-3:4 "))
-            if z==3:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-        elif y==c9:
-            print(c9)
-            z=int(input('1-ORRISA, 2-MANIPUR , 3-KARNATAKA , 4-KERALA: '))
-            if z==4:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-        elif y==c10:
-            print(c10)
-            z=int(input('1-RAMAYANA, 2-MUNDAK UPANISHAD, 3-RIGVEDA, 4-SAPATH BRAHMANA : '))
-            if z==2:
-                print("correct")
-                sec3=sec3+1
-            else:
-                print("wrong")
-            l3.remove(y)
-x=input("to proceed with section-4 press enter")
-Z=print("SECTION 4:INDIAN FESTIVALS ")
-for i in range(10):    
-    if x==A:    
-        print("enter your CHOICE") 
-        y=random.choice(l4)
-        if y==d1:
-            print(d1)
-            z=int(input('1-BUDDHISTS, 2-HINDUS, 3-SIKHS, 4-JAINS : '))
-            if z==3:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)    
 
-        elif y==d2:
-              print(d2)
-              z=int(input("1-CHRISTIANITY, 2-MUSLIM, 3-JAINISM, 4-PARSIAN : "))
-              if z==4:
-                  print("correct")
-                  sec4=sec4+1
-              else:
-                  print("wrong")
-              l4.remove(y) 
-        elif y==d3:
-              print(d3)
-              z=int(input('1-TRIPURA, 2-ASSAM, 3-ODISHA, 4-KARNATAKA: '))
-              if z==2:
-                  print("correct")
-                  sec4=sec4+1
-              else:
-                  print("wrong")
-              l4.remove(y)
-        elif y==d4:
-              print(d4)
-              z=int(input("1-PONGAL , 2-ONAM, 3-BAISAKHI, 4-BIHU: "))
-              if z==3:
-                  print("correct")
-                  sec4=sec4+1
-              else:
-                  print("wrong")
-              l4.remove(y)    
-        elif y==d5:
-            print(d5)
-            z=int(input("1-ONAM , 2-NARVOZ, 3-BIHU, 4-PONGAL : "))
-            if z==2:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-        elif y==d6:
-            print(d6)
-            z=int(input("1-DUSSEHRA ,2-DIWALI ,3-HOLI, 4-DURGA PUJA: "))
-            if z==2:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-        elif y==d7:
-            print(d7)
-            z=int(input("1-LENT , 2-NARVOZ, 3-EASTER , 4-CHRISTMAS "))
-            if z==4:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-        elif y==d8:
-            print(d8)
-            z=int(input("1-MUSLIMS, 2-PARSIANS, 3-BUDDHISTS, 4-JAINS "))
-            if z==1:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-        elif y==d9:
-            print(d9)
-            z=int(input('1-ASSAM, 2-BIHAR , 3-WEST BENGAL , 4-PUNJAB : '))
-            if z==2:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-        elif y==d10:
-            print(d10)
-            z=int(input('1-MUMBAI, 2-JAIPUR, 3-KOLKATA, 4-BENGALURU : '))
-            if z==1:
-                print("correct")
-                sec4=sec4+1
-            else:
-                print("wrong")
-            l4.remove(y)
-x=input("to proceed with section-5 press enter")
-Z=print("SECTION 5: INDIAN FREEDOM FIGHTERS")
-for i in range(10):    
-    if x==A:    
-        print("enter your CHOICE") 
-        y=random.choice(l5)
-        if y==e1:
-            print(e1)
-            z=int(input('1-V.D.SAVARKAR, 2-MK GANDHI, 3-BG TILAK, 4-MOTILAL NEHRU : '))
-            if z==2:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)    
 
-        elif y==e2:
-              print(e2)
-              z=int(input("1-TANTIA TOPE, 2-KUNWAR SINGH, 3-DADABHAI NAROJI, 4-WC BONNERJEE : "))
-              if z==3:
-                  print("correct")
-                  sec5=sec5+1
-              else:
-                  print("wrong")
-              l5.remove(y) 
-        elif y==e3:
-              print(e3)
-              z=int(input('1-BHUPENDRANATH DUTT, 2-ABHINASH BATTACHARYA, 3-BARINDRA GHOSH 4-ALL OF THE ABOVE: '))
-              if z==4:
-                  print("correct")
-                  sec5=sec5+1
-              else:
-                  print("wrong")
-              l5.remove(y)
-        elif y==e4:
-              print(e4)
-              z=int(input("1-VALLABH BHAI PATEL , 2-SHAMBU DUTT SHARMA, 3-SIR AUROBINDO, 4-NONE: "))
-              if z==3:
-                  print("correct")
-                  sec5=sec5+1
-              else:
-                  print("wrong")
-              l5.remove(y)    
-        elif y==e5:
-            print(e5)
-            z=int(input("1-LAWYER , 2-BUSINESSMAN, 3-TEACHER, 4-NONE : "))
-            if z==1:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-        elif y==e6:
-            print(e6)
-            z=int(input("1-MK GANDHI ,2-BG TILAK ,3-MOTILAL NEHRU, 4-BHAGAT SINGH: "))
-            if z==2:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-        elif y==e7:
-            print(e7)
-            z=int(input("1-LORD CURZON , 2-LORD CANNING, 3-LORD DALHOUSIE , 4-LORD MINTO "))
-            if z==1:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-        elif y==e8:
-            print(e8)
-            z=int(input("1-Poona Sarvajanik Sabha, 2-Land Holders Society, 3-Bombay Presidency Association, 4-Servants of India Society "))
-            if z==4:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-        elif y==e9:
-            print(e9)
-            z=int(input('1-W.W.HUNTER, 2-SADLER , 3-MACAULAY, 4-NONE : '))
-            if z==1:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-        elif y==e10:
-            print(e10)
-            z=int(input('1-NON-COOPERATION MOVEMENT, 2-KHILAFAT MOVEMENT, 3-Home Rule Movement, 4-Civil Disobedience Movement : '))
-            if z==3:
-                print("correct")
-                sec5=sec5+1
-            else:
-                print("wrong")
-            l5.remove(y)
-
+    
