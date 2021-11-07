@@ -7,15 +7,19 @@ a=int(input('how many times do you wanna toss: '))
 for x in range(a):
     print('1.HEADS')
     print('2.TAILS')
-    b=int(input('ENTER YOUR CHOICE: '))
     c=random.choice(l)
+    b=int(input('ENTER YOUR CHOICE: '))
     if c==x and b==1:
-        print('heads,you won')
+        print(c) 
+        print('you won') 
     elif c==x and b==2:
-        print('heads,you lost')
+        print(c)
+        print('you lost') 
     elif c==y and b==1:
-        print('tails,you lost')
+        print(c)
+        print('you won') 
     elif c==y and b==2:
-        print('tails,you won')
+        print(c)
+        print('you lost') 
 print('thank you')
               
