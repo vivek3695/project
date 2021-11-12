@@ -1,5 +1,6 @@
 import random
 print('HELLO')
+print('YOU ARE PLAYING ROCK PAPER SCISSORS')
 x='rock'
 y='paper'
 z='scissors'
